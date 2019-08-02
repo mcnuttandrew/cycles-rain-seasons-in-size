@@ -1,0 +1,28 @@
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+.rv-xy-plot__series--label-text {
+  alignment-baseline: middle;
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.noninteractive {
+  pointer-events: none;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.flex-down {
+  display: flex;
+  flex-direction: column;
+}

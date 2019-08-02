@@ -1,0 +1,6 @@
+node_modules/*
+dist/*
+_maps/*
+bundle.js
+app-bundle.js
+background-bundle.js
