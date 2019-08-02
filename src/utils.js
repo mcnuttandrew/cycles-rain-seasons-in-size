@@ -1,4 +1,3 @@
-import {rrulestr} from 'rrule'
 import moment from 'moment';
 
 export function parseCalendarsJSON(cal) {
@@ -34,9 +33,6 @@ function parseCalendarJSON(cal) {
       })));
     }
 
-    // if (baseEvent.RRULE) {
-    //   console.log(rrulestr(baseEvent.RRULE))
-    // }
     const newEvents = [{
       baseEvent,
       start: moment(baseEvent.DTSTART || baseEvent['DTSTART;VALUE=DATE'], 'YYYYMMDD'),

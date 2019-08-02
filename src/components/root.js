@@ -2,15 +2,9 @@ import React from 'react';
 import {connect} from 'react-redux';
 import * as actionCreators from '../actions';
 
-import Uploader from './upload';
 import Calendar from './calendar';
-import MyCAl from '../../my-cal.json';
 
 class RootComponent extends React.Component {
-  componentDidMount() {
-    this.props.recieveCalendar(MyCAl);
-    //
-  }
 
   render() {
     const {
@@ -27,7 +21,6 @@ class RootComponent extends React.Component {
     return (
       <div >
         <h1>ENTER THE HOUSE OF THE WIGGLY BOYS</h1>
-        <Uploader recieveCalendar={recieveCalendar}/>
         <div>
           <h3>{currentMonth.format('MMMM YYYY')}</h3>
           <button onClick={() => advanceMonth(-1)}>prev month</button>
