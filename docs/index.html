@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CYCLES & RAIN / SEASONS IN SIZE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="title-wrapper">
+        <div class="title">
+          CYCLES & RAIN / SEASONS IN SIZE
+        </div>
+        <div class="subtitle">
+          By <a href="http://www.mcnutt.in/">Andrew McNutt</a>
+        </div>
+      </div>
+      <div class="main-content">
+        <p>
+          This graphic tells a small story about bicycle traffic on the Fremont bridge in Seattle Washington through the course of 2018. It does so using a traditional graphic (a line chart), a fashionable but unusual chart (a sunburst), and novel chart type (the table cartograms nested into a treemap). The table cartogram encodes tabular data through the areas of a grid while maintaining the adjacency of that grid while keeping everything bound within a rectangle, which imparts the irregular shapes to the rectanges. This unusual graphic arises from-but is considered only in passing by-academia. We make a table cartogram of each of the months in the year and place them in a proportionately-sized treemap. From this combo we are able to see a number of dimensions and granularities simultaneously: the relative popularity of travel during the weekend to the workweek, that no one rides during thanksgiving, that the Fremont bridge is mostly uncorrelated with the University of Washington's academic calendar, and the popularity of summer compared to winter.
+        </p>
+        <div class="gallery">
+          <a href="./assets/cycles-rain-seasons-in-size.pdf"><img src="./assets/cycles-rain-seasons-in-size.png" /></a>
+          <span>(click image for full image)</span>
+        </div>
+        <p>
+          The table cartogram is a close relative of the <a href="https://en.wikipedia.org/wiki/Cartogram">geographic cartogram</a> (a type of visualization which embeds data through the area of bodies in a map) although cast into an abstract, or non-geographic, light. It is also related to a wide family of area encoding visualizations like the <a href="https://en.wikipedia.org/wiki/Mosaic_plot">mosaic plot</a>, <a href="https://en.wikipedia.org/wiki/Pie_chart">the pie chart</a>, <a href="https://eagereyes.org/blog/2008/engaging-readers-with-square-pie-waffle-charts">the waffle plot</a>, and many others. Table cartograms provide an interesting advantage over many of these alternatives in that the fiercely maintained grid offers a two dimensional relationship which is either entirely unavailable or can become highly distorted in other contexts. While they might seem cartoonishly inappropriate in many settings, they offer a <a href="https://xeno.graphics">xenographic</a> effect that is (hopefully) visually interesting while presenting part-to-whole data in an insightful manner. I believe that table cartograms have an interesting future: they seem to be most useful for presentational graphics where order is intrinsic to the data (like the calendars seen here), they are likely useful for textile physicalizations of visualizations (such as perhaps in quilts), and perhaps other new and wonderful contexts.
+        </p>
+        <p>
+          This work makes use of some software I wrote for my Masters Thesis in Computer Science at the University of Chicago. A further write up of that library, the types of graphics that it produces, and the nature of table cartogram usage is still forthcoming. For now: this graphic was produced by combining data published by the <a href="https://data.seattle.gov/Transportation/Fremont-Bridge-Hourly-Bicycle-Counts-by-Month-Octo/65db-xm6k">city of Seattle</a> and historical weather data from <a href="https://darksky.net/">Darksky</a>. It makes use of a lot of custom javascript code <a href="https://github.com/mcnuttandrew/cycles-rain-seasons-in-size">(which you can view here)</a> to calculate layout and positioning, <a href="https://github.com/uber/react-vis">react-vis</a> for rendering, and sketch for visual tuning. This graphic is meant for print. To this end, it is formatted in such a way that, if you are interested you can print it out on your home printer, and it will look as intended.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

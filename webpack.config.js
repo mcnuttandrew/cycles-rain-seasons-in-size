@@ -24,6 +24,9 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+    index: './dev-index.html'
+  },
   output: {
     filename: '[name]-bundle.js',
     path: path.join(__dirname, './')
