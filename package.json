@@ -37,7 +37,7 @@
     "ical2json": "^1.2.0",
     "immutable": "^3.8.2",
     "lodash.debounce": "^4.0.8",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-fetch": "^2.6.0",
     "react": "16",
     "react-addons-shallow-compare": "^15.4.1",
