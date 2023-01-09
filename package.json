@@ -49,7 +49,7 @@
     "redux": "^4.0.1",
     "redux-thunk": "^2.2.0",
     "request": "^2.88.0",
-    "rrule": "^2.6.2",
+    "rrule": "^2.7.1",
     "table-cartogram": "^0.0.1"
   },
   "scripts": {
